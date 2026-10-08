@@ -1,0 +1,57 @@
+{
+	"name": "n8n-nodes-baseray",
+	"version": "0.1.0",
+	"description": "n8n community node for the baseray API: search and read buildings in Romania and Czechia.",
+	"license": "MIT",
+	"homepage": "https://baseray.ai/docs/api",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"baseray",
+		"buildings",
+		"real-estate",
+		"romania",
+		"czechia",
+		"solar",
+		"leads"
+	],
+	"author": {
+		"name": "baseray",
+		"email": "andreipatrasq@yahoo.com",
+		"url": "https://baseray.ai"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease",
+		"generate:filters": "node scripts/generate-filters.mjs && prettier --write nodes/Baseray/descriptions/BuildingFilters.ts && n8n-node lint --fix"
+	},
+	"files": [
+		"dist",
+		"!dist/tsconfig.tsbuildinfo"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/BaserayApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/Baseray/Baseray.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "^0.51.3",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^21.1.0",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
