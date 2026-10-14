@@ -17,7 +17,7 @@
 	],
 	"author": {
 		"name": "baseray",
-		"email": "andreipatrasq@yahoo.com",
+		"email": "hello@baseray.ai",
 		"url": "https://baseray.ai"
 	},
 	"scripts": {
@@ -53,5 +53,12 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Codestagero/n8n-nodes-baseray.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Codestagero/n8n-nodes-baseray/issues"
 	}
 }
