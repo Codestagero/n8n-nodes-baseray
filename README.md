@@ -1,6 +1,6 @@
 # n8n-nodes-baseray
 
-This is an [n8n](https://n8n.io/) community node for the [baseray API](https://baseray.ai/docs/api). It lets you search and read buildings in Romania and Czechia in your n8n workflows: each building's footprint, height, volume, floor area, floors, category, address and postcode, flood zone and seismic risk, what its record states (such as its construction year), rooftop solar potential, whether solar panels are already on the roof, and the businesses whose registered office is at its address.
+This is an [n8n](https://n8n.io/) community node for the [baseray API](https://baseray.ai/docs/api). It lets you search and read buildings in your n8n workflows: for every building baseray covers, its footprint, height, volume, floor area, floors, category, address and postcode, flood zone and seismic risk, what its record states (such as its construction year), rooftop solar potential, whether solar panels are already on the roof, and the businesses whose registered office is at its address. Each fact is marked measured, from a register, estimated or unknown. New countries are added continuously.
 
 [Installation](#installation) · [Credentials](#credentials) · [Operations](#operations) · [Credits](#credits) · [Errors and limits](#errors-and-limits) · [Compatibility](#compatibility) · [Resources](#resources)
 

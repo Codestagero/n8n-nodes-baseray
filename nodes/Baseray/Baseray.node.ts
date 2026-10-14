@@ -45,7 +45,7 @@ export class Baseray implements INodeType {
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description:
-			'Search and read buildings in Romania and Czechia from the baseray API: footprint, height, volume, floors, address, solar potential, natural hazards and registered businesses',
+			'Search and read buildings from the baseray API: footprint, height, volume, floors, address, solar potential, natural hazards and registered businesses',
 		defaults: {
 			name: 'baseray',
 		},

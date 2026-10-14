@@ -1,7 +1,7 @@
 {
 	"name": "n8n-nodes-baseray",
 	"version": "0.1.0",
-	"description": "n8n community node for the baseray API: search and read buildings in Romania and Czechia.",
+	"description": "n8n community node for the baseray API. Building data: address, use, size, height, age, roof, solar panels and registered businesses.",
 	"license": "MIT",
 	"homepage": "https://baseray.ai/docs/api",
 	"keywords": [
@@ -10,8 +10,7 @@
 		"baseray",
 		"buildings",
 		"real-estate",
-		"romania",
-		"czechia",
+		"building-data",
 		"solar",
 		"leads"
 	],

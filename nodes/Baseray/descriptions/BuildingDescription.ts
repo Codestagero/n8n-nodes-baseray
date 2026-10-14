@@ -67,7 +67,7 @@ export const buildingFields: INodeProperties[] = [
 		placeholder: '25.55,45.60,25.68,45.70',
 		displayOptions: show(['search']),
 		description:
-			'The area to search: <code>minLon,minLat,maxLon,maxLat</code> in WGS84 degrees. Each side may span at most 3 degrees; search a county, city or district. Buildings are covered in Romania and Czechia.',
+			'The area to search: <code>minLon,minLat,maxLon,maxLat</code> in WGS84 degrees. Each side may span at most 3 degrees; search a county, city or district. An area outside the countries baseray covers returns no buildings.',
 	},
 	{
 		displayName: 'Sort',
